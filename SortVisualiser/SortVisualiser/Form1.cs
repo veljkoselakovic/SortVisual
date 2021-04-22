@@ -138,7 +138,7 @@ namespace SortVisualiser
             Q.Clear();
             for (int i = 0; i < elNumber.Value; i++)
             {
-                int y = (int)((double)i / elNumber.Value * (pictureBox1.Height+1)) ;
+                int y = (int)((double)(i+1) / elNumber.Value * (pictureBox1.Height))-10 ;
                 Q.Add(y);
 
             }
